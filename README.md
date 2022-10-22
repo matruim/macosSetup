@@ -25,3 +25,8 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
 
 - These things might be automatable, but I do them manually right now:
     - Configure Time Machine backup drive and Time Machine Editor (if needed)
+
+- Setup Shortcuts on Mac for Daily routines
+    - sleep
+    - kill everything
+    - open daily apps and place them in correct spots.
