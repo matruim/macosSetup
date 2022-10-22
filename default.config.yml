@@ -95,13 +95,15 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - google-chrome
-  - transmit
   - kitty
   - keepassxc
   - rectangle
   - opera
   - visual-studio-code
   - intellij-idea
+  - figma
+  - bartender
+  - iina
 
 homebrew_cask_accept_external_apps: true
 
