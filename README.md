@@ -17,9 +17,6 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
     - Open Dropbox, sign in, and set up sync
     - Open KeePassXC, and configure db ( ~/Dropbox/Apps/Keepass/info.kdbx)
 - Install old-fashioned apps:
-    - Install Bartender
-    - Install Figma 
-    - Install Elgato Stream Deck
 
 - Manual settings to automate someday:
     - Dock:
