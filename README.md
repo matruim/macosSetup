@@ -15,7 +15,7 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
     - Open Photos and make sure iCloud sync options are correct
     - Open Music, make sure computer is authorized, and set Library sync options
     - Open Dropbox, sign in, and set up sync
-    - Open KeePassXC, and configure db ( /Dropbox/Apps/Keepass/info.kdbx)
+    - Open KeePassXC, and configure db ( ~/Dropbox/Apps/Keepass/info.kdbx)
 - Install old-fashioned apps:
     - Install InjelliJ
     - Install Bartender
