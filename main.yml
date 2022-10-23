@@ -27,7 +27,7 @@
       tags: ['dock']
 
   tasks:
-    - name: print hostname
-      ansible.builtin.debug:
-        msg: "{{ inventory_hostname }}"
+    - name: Run .osx dotfiles.
+      command: "{{ osx_script }}"
+      changed_when: false
   
