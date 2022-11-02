@@ -10,13 +10,14 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
 - Sign in in App Store (since mas can't sign in automatically)
 - Clone mac-dev-playbook to the Mac: `git clone git@github.com:matruim/macosSetup.git`
 - Run the playbook with `ansible-playbook main.yml --ask-become-pass`
-    - If there are errors, you may need to finish up other tasks like installing 'old-fashioned' apps first (since I try to place Photoshop in the Dock and it can't be installed automatically). Then, run the playbook again ;)
+    - If there are errors, you may need to finish up other tasks like installing 'old-fashioned' apps first
 - Start Synchronization tasks:
     - Open Photos and make sure iCloud sync options are correct
     - Open Music, make sure computer is authorized, and set Library sync options
     - Open Dropbox, sign in, and set up sync
     - Open KeePassXC, and configure db ( ~/Dropbox/Apps/Keepass/info.kdbx)
 - Install old-fashioned apps:
+    - add licenses to apps as that isn't automated yet
 
 - Manual settings to automate someday:
     - Dock:
