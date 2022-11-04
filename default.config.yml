@@ -12,8 +12,20 @@ configure_osx: true
 configure_dock: true
 dockitems_remove:
 - Launchpad
+- Safari
+- Messages
+- Mail
+- Maps
+- Photos
+- FaceTime
+- Calendar
+- Contacts
+- Reminders
+- Notes
 - TV
+- Music
 - Podcasts
+- News
 - 'App Store'
 dockitems_persist: 
 - name: "Google Chrome"
