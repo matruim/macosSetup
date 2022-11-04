@@ -18,17 +18,19 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
     - Open KeePassXC, and configure db ( ~/Dropbox/Apps/Keepass/info.kdbx)
 - Install old-fashioned apps:
     - DisplayLink Manager (dock manager)
+    - CyberPower Powerpanel Personal
     - add licenses to apps as that isn't automated yet
 
 - Manual settings to automate someday:
     - Dock:
         - Add Downloads, Applications, and Work Shortcuts
+    - Bartender Menu Layout
 - After Dropbox Sync completes: Run the playbook with --tags post to complete setup.
 
 - These things might be automatable, but I do them manually right now:
     - Configure Time Machine backup drive and Time Machine Editor (if needed)
 
-- Setup Shortcuts on Mac for Daily routines
+- Import Shortcuts on Mac for Daily routines
     - sleep
     - kill everything
     - open daily apps and place them in correct spots.
