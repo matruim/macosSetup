@@ -6,9 +6,13 @@ This playbook installs and configures some of the software I use on my Mac for w
 ##Initial configuration of a brand new Mac
 Before starting, I completed Apple's mandatory macOS setup wizard (creating a local user account, and optionally signing into my iCloud account). Once on the macOS desktop, I do the following (in order):
 
-- Install Ansible [following the guide.](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
 - Sign in in App Store (since mas can't sign in automatically)
+- Run command `xcode-select --install` (install xcode)
+- Install Homebrew [following instructions.](https://docs.brew.sh/Installation)
+- `brew install ansible`
+- setup ssh key for github and gpg key for github
 - Clone mac-dev-playbook to the Mac: `git clone git@github.com:matruim/macosSetup.git`
+- Run the requirements for ansible galaxy `ansible-galaxy install -r requirements.yml`
 - Run the playbook with `ansible-playbook main.yml --ask-become-pass`
     - If there are errors, you may need to finish up other tasks like installing 'old-fashioned' apps first
 - Start Synchronization tasks:
