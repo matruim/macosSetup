@@ -30,4 +30,11 @@
     - name: Run .osx dotfiles.
       command: "{{ osx_script }}"
       changed_when: false
-  
+    - name: Install global NPM packages.
+      npm:
+        name: "{{ item.name | default(item) }}"
+        state: "{{ item.state | default('present') }}"
+        version: "{{ item.version | default(omit) }}"
+        global: true
+        executable: "{{ item.executable | default(omit) }}"
+      loop: "{{ npm_packages }}"
