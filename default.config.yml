@@ -64,6 +64,7 @@ dotfiles_files:
   - .inputrc
   - .osx
   - .vimrc
+  - .gitconfig
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
