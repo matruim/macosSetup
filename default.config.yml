@@ -74,6 +74,7 @@ homebrew_installed_packages:
   - git
   - github/gh/gh
   - gpg
+  - pinentry-mac
   - libevent
   - sqlite
   - node
@@ -84,19 +85,7 @@ homebrew_installed_packages:
   - wget
   - zsh-history-substring-search
 
-homebrew_uninstalled_packages:
-  - bash-completion
-  - doxygen
-  - gifsicle
-  - go
-  - httpie
-  - iperf
-  - mcrypt
-  - nmap
-  - php
-  - pv
-  - wrk
-  - cowsay
+homebrew_uninstalled_packages: []
 
 homebrew_taps:
   - homebrew/core
