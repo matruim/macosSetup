@@ -93,6 +93,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - azure-data-studio
   - docker
   - dropbox
   - firefox
