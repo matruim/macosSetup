@@ -40,8 +40,8 @@ dockitems_persist:
 - name: "KeePassXC"
   path: "/Applications/KeePassXC.app/"
   pos: 4
-- name: "System Preferences"
-  path: "/Applications/System Preferences.app/"
+- name: "System Settings"
+  path: "/Applications/System Settings.app/"
   pos: 5
 - name: "kitty"
   path: "/Applications/kitty.app/"
