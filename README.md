@@ -21,7 +21,7 @@ Before starting, I completed Apple's mandatory macOS setup wizard (creating a lo
     - Open Dropbox, sign in, and set up sync
     - Open KeePassXC, and configure db ( ~/Dropbox/Apps/Keepass/info.kdbx)
 - Install old-fashioned apps:
-    - DisplayLink Manager (dock manager)
+    - Monitor Software (Dell U3421WE)
     - CyberPower Powerpanel Personal
     - add licenses to apps as that isn't automated yet
 
